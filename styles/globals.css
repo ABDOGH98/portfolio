@@ -10,7 +10,7 @@
 	@apply cursor-pointer  text-gray-400 hover:text-[#ffd56b] pt-2;
 }
 .projectNav {
-	@apply bg-gray-300 py-2 px-3 rounded-lg mr-5 cursor-pointer flex-shrink-0;
+	@apply bg-white py-2 px-3 rounded-lg mr-5 cursor-pointer  font-bold flex-shrink-0;
 	font-family: "Roboto", sans-serif;
 }
 .nav__hover {

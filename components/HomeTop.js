@@ -1,7 +1,7 @@
 function HomeTop() {
 	return (
 		<div className="grid grid-cols-4 grid-rows-6 md:grid-rows-2  items-center  ">
-			<div className="flex col-span-4 items-center row-start-3 md:row-span-2 md:col-span-2 justify-center text-3xl md:text-4xl lg:text-6xl">
+			<div className="flex col-span-4 items-center row-start-3 md:row-span-2 md:col-span-2 justify-center text-3xl lg:text-4xl">
 				<div className="home__font ml-2">
 					Hi,
 					<br />

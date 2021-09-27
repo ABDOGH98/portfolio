@@ -21,6 +21,10 @@ export const data = {
 			name: "React Native - PWA",
 		},
 		{
+			image: "/img/technologies/redux.png",
+			name: "Redux",
+		},
+		{
 			image: "/img/technologies/nodejs.png",
 			name: "Nodejs - Express.js",
 		},
@@ -104,7 +108,7 @@ export const data = {
 		{
 			title: "Portfolio",
 			tools: ["NextJS", "Tailwind CSS"],
-			link: "#",
+			link: "https://github.com/ABDOGH98/portfolio",
 			img: "/img/project/portfo.jpg",
 		},
 		{
