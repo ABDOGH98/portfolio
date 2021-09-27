@@ -23,7 +23,7 @@ function HomeMiddle() {
 				<div className="mb-5 flex flex-col items-center justify-end  flex-shrink-0 mr-16 ">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class=" animate-bounce"
+						class="animate-bounce"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
@@ -36,10 +36,7 @@ function HomeMiddle() {
 							d="M19 14l-7 7m0 0l-7-7m7 7V3"
 						/>
 					</svg>
-					<a
-						href="https://firebasestorage.googleapis.com/v0/b/assets-d94b8.appspot.com/o/CV_A.GHACHI_vers.ANG.pdf?alt=media&token=e8e79f46-9b52-4f4f-8396-db06e4b9b06e"
-						target="_blank"
-					>
+					<a href={data.cv} target="_blank">
 						<span className="text-[#ffd56b] font-bold flex text-2xl mt-10 cursor-pointer">
 							More
 						</span>
