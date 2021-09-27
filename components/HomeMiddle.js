@@ -15,7 +15,7 @@ function HomeMiddle() {
 						key={index}
 					>
 						<Image src={dt.image} alt={dt.name} width={120} height={120} />
-						<span className="text-white font-bold flex text-2xl mt-2 ">
+						<span className="text-white font-bold flex text-2xl mt-2 primaryText ">
 							{dt.name}
 						</span>
 					</div>
@@ -60,8 +60,11 @@ function HomeMiddle() {
 				<div className="projectNav">PWA</div>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
-				{data.projects.map((project) => (
-					<div className="bg-[#1a1a2e] text-gray-300 px-5 py-2 mx-1 md:mx-5 my-3 rounded-xl flex flex-col">
+				{data.projects.map((project, index) => (
+					<div
+						className="bg-[#1a1a2e] text-gray-300 px-5 py-2 mx-1 md:mx-5 my-3 rounded-xl flex flex-col"
+						key={index}
+					>
 						<div className="">
 							<span className=" font-bold text-lg flex justify-center mt-1 primaryText">
 								{project.title}
