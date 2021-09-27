@@ -9,8 +9,11 @@ function HomeMiddle() {
 				</span>
 			</div>
 			<div className="bg-[#1a1a2e] pt-10 pb-6 px-5 mx-1 md:mx-5 my-4 rounded-3xl flex flex-nowrap  overflow-x-auto no-scrollbar">
-				{data.skills.map((dt) => (
-					<div className="mb-5 flex flex-col items-center flex-shrink-0 mr-16 ">
+				{data.skills.map((dt, index) => (
+					<div
+						className="mb-5 flex flex-col items-center flex-shrink-0 mr-16 "
+						key={index}
+					>
 						<Image src={dt.image} alt={dt.name} width={120} height={120} />
 						<span className="text-white font-bold flex text-2xl mt-2 ">
 							{dt.name}
@@ -20,12 +23,11 @@ function HomeMiddle() {
 				<div className="mb-5 flex flex-col items-center justify-end  flex-shrink-0 mr-16 ">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="h-6 w-6"
+						class=" animate-bounce"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke="currentColor"
 						color="#ffd56b"
-						className="animate-bounce"
 					>
 						<path
 							stroke-linecap="round"
@@ -34,9 +36,14 @@ function HomeMiddle() {
 							d="M19 14l-7 7m0 0l-7-7m7 7V3"
 						/>
 					</svg>
-					<span className="text-[#ffd56b] font-bold flex text-2xl mt-10 cursor-pointer">
-						Know More
-					</span>
+					<a
+						href="https://firebasestorage.googleapis.com/v0/b/assets-d94b8.appspot.com/o/CV_A.GHACHI_vers.ANG.pdf?alt=media&token=e8e79f46-9b52-4f4f-8396-db06e4b9b06e"
+						target="_blank"
+					>
+						<span className="text-[#ffd56b] font-bold flex text-2xl mt-10 cursor-pointer">
+							More
+						</span>
+					</a>
 				</div>
 			</div>
 			<div>
