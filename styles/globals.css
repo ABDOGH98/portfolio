@@ -1,16 +1,61 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bgImage {
+	background: url("/img/foot_home.svg") content-box;
+} */
+
+.nav__hover {
+	@apply cursor-pointer  text-gray-400 hover:text-[#ffd56b] pt-2;
+}
+.projectNav {
+	@apply bg-gray-300 py-2 px-3 rounded-lg mr-5 cursor-pointer flex-shrink-0;
+	font-family: "Roboto", sans-serif;
+}
+.nav__hover {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 70;
+}
+.langingImg {
+	background-image: url("/img/Landing.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.home__font {
+	/* font-family: "Patrick Hand", cursive; */
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	word-spacing: 2pt;
+}
+.bg_home {
+	background-image: url("/img/bg_home.svg");
+}
+.patrickHand {
+	/* font-family: "Patrick Hand", cursive; */
+	font-family: "Roboto", sans-serif;
+}
+.primaryText {
+	font-family: "Roboto", sans-serif;
+}
+/* width */
+.no-scrollbar::-webkit-scrollbar {
+	height: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Track */
+/* .no-scrollbar::-webkit-scrollbar-track {
+	box-shadow: 0 0 5px #eee;
+	border-radius: 60px;
+} */
+
+/* Handle */
+.no-scrollbar::-webkit-scrollbar-thumb {
+	background: #495464;
+	border-radius: 10px;
 }
 
-* {
-  box-sizing: border-box;
+/* Handle on hover */
+.no-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #495464;
 }
