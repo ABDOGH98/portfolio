@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs, { init } from "emailjs-com";
 
-init("process.env.INTEGRATION");
+init(process.env.INTEGRATION);
 
 function HomeBottom() {
 	const [name, setName] = useState("");
