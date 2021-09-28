@@ -51,11 +51,15 @@
 
 /* Handle */
 .no-scrollbar::-webkit-scrollbar-thumb {
-	background: #495464;
+	background: #737b86;
 	border-radius: 10px;
 }
 
 /* Handle on hover */
 .no-scrollbar::-webkit-scrollbar-thumb:hover {
-	background: #495464;
+	background: #737b86;
+}
+
+.inputMessage {
+	@apply p-2 md:w-96 w-80 rounded-lg outline-none flex mb-3;
 }

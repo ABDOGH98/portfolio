@@ -8,7 +8,7 @@ function HomeMiddle() {
 					SKILLS
 				</span>
 			</div>
-			<div className="bg-[#1a1a2e] pt-10 pb-6 px-5 mx-1 md:mx-5 my-4 rounded-3xl flex flex-nowrap  overflow-x-auto no-scrollbar">
+			<div className="bg-[#1a1a2e] pt-10 pb-6 px-5 mx-1 md:mx-5 my-4 rounded-3xl flex flex-nowrap  overflow-x-auto no-scrollbar shadow-2xl">
 				{data.skills.map((dt, index) => (
 					<div
 						className="mb-5 flex flex-col items-center flex-shrink-0 mr-16 "
@@ -48,7 +48,7 @@ function HomeMiddle() {
 					PROJECTS
 				</span>
 			</div>
-			<div className="bg-[#1a1a2e] py-8 px-1 mx-1 md:px-5 md:mx-5 my-4 rounded-3xl flex flex-nowrap font-bold sm:justify-center overflow-x-auto no-scrollbar">
+			<div className="bg-[#1a1a2e] shadow-2xl py-8 px-1 mx-1 md:px-5 md:mx-5 my-4 rounded-3xl flex flex-nowrap font-bold sm:justify-center overflow-x-auto no-scrollbar">
 				<div className="projectNav">All</div>
 				<div className="projectNav">React</div>
 				<div className="projectNav">Spring</div>
@@ -59,7 +59,7 @@ function HomeMiddle() {
 			<div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
 				{data.projects.map((project, index) => (
 					<div
-						className="bg-[#1a1a2e] text-gray-300 px-5 py-2 mx-1 md:mx-5 my-3 rounded-xl flex flex-col"
+						className="bg-[#1a1a2e] text-gray-300 px-5 py-2 mx-1 md:mx-5 my-3 rounded-xl flex flex-col "
 						key={index}
 					>
 						<div className="">
@@ -86,7 +86,7 @@ function HomeMiddle() {
 							<a href={project.link} target="_blank">
 								<Image
 									src="/img/git.png"
-									width={50}
+									width={30}
 									height={30}
 									className="cursor-pointer"
 								/>

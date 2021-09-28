@@ -129,6 +129,12 @@ export const data = {
 			link: "https://github.com/ABDOGH98/chat-app-learning",
 			img: "/img/project/chat.jpg",
 		},
+		{
+			title: "Free Cell",
+			tools: ["C", "SDL"],
+			link: "https://github.com/ABDOGH98/FreeCell",
+			img: "/img/project/sdl.jpg",
+		},
 	],
 	cv: "https://firebasestorage.googleapis.com/v0/b/assets-d94b8.appspot.com/o/CV_A.GHACHI_vers.ANG.pdf?alt=media&token=cba95c98-9ab4-472f-8a46-689d42d38daa",
 };
