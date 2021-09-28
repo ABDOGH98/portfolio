@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs, { init } from "emailjs-com";
 
-init(user_OZz52nbWNT6Mmy0zPaFZG);
+init("user_OZz52nbWNT6Mmy0zPaFZG");
 
 function HomeBottom() {
 	const [name, setName] = useState("");
