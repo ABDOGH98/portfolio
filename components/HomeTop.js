@@ -8,7 +8,7 @@ function HomeTop() {
 					Hi,
 					<br />
 					I'm
-					<span className=" col-span-1 text-[#ffd56b] ">GHACHI </span>
+					<span className=" col-span-1 text-[#ffd56b] "> GHACHI </span>
 					Abdessamad <br />
 					I'm a Software Engineer
 					<br />
