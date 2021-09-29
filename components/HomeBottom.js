@@ -12,7 +12,7 @@ function HomeBottom() {
 		e.preventDefault();
 
 		emailjs
-			.sendForm("service_1capq3t", "template_z288cli", form.current)
+			.sendForm("service_9iqz83y", "template_z288cli", form.current)
 			.then(() => {
 				setName("");
 				setMessage("");
